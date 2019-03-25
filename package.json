@@ -1,0 +1,23 @@
+{
+  "name": "serverless-node-starter",
+  "version": "1.0.0",
+  "description": "starter",
+  "main": "handler.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha **/*Test.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmichalares/serverless-node-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmichalares/serverless-node-starter/issues"
+  },
+  "homepage": "https://github.com/nmichalares/serverless-node-starter#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
